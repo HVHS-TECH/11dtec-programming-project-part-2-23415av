@@ -6,11 +6,6 @@ Term 2
 
 //Variables
 
-var input_name = {
-    value: "Hello",
-    type: "text"
-}
-
 /*************************
 Main Code
 *************************/
