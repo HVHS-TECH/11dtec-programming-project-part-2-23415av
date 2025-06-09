@@ -7,7 +7,6 @@ Term 2
 //Variables
 
 var input_name = {
-    value: "Mr Bob",
     type: "text"
 }
 
