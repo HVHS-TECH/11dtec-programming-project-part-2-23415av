@@ -15,8 +15,8 @@ Main Code
 /*************************
 Functions
 *************************/
-function getFormInput (){
-    var message = "Hello there ";
+function getNameInput (){
+    var message = "Welome to Cool Robs CDs for rent ";
     message  = message + input_name.value;
     welcomeMessage.innerHTML = message;
 }

@@ -8,7 +8,7 @@
 
 <body>
     <div class="textcontainer">
-        <h1 id="header">Welome to Cool Robs CDs for rent</h1>
+        <h1 id="welcomeMessage" id="header"></h1>
         <h2>How to appropriately use this website:</h2>
         <p>This website serves the purpose of figuring out which cd in our collection you want to rent and how much it
             will
@@ -23,11 +23,9 @@
 
     <form onsubmit="return false;">
         <label>Name:</label><br>
-        <input type="text" id="input_name" value="Default Name"><br>
-        <input type="submit" onclick="getFormInput()">
+        <input type="text" id="input_name"><br>
+        <input type="submit" onclick="getNameInput()">
     </form>
-
-    <h3 id="welcomeMessage"></h3>
 
     <script src="main.js"></script>
 </body>
