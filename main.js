@@ -6,7 +6,10 @@ Term 2
 
 //Variables
 
-
+var input_name = {
+    value: "",
+    type: "text"
+}
 
 /*************************
 Main Code
@@ -17,7 +20,11 @@ Main Code
 /*************************
 Functions
 *************************/
-
+function getFormInput (){
+    var message = "Hello there ";
+    message  = message + input_name.value;
+    welcomeMessage.innerHTML = message;
+}
 
 
 
