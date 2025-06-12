@@ -7,18 +7,30 @@
 </head>
 
 <body>
-    <form onsubmit="return false;">
-        <label>Name:</label><br>
-        <input type="text" id="input_name"><br>
-        <input type="submit" onclick="getNameInput()">
-    </form>
+
 
     <div class="textcontainer">
         <h1 id="welcomeMessage" id="header"></h1>
+        <form onsubmit="return false;">
+            <label>Name:</label><br>
+            <input type="text" id="input_name" required><br>
+            <input type="submit" onclick="getNameInput()">
+        </form>
         <h2>How to appropriately use this website:</h2>
         <p>This website serves the purpose of figuring out which cd in our collection you want to rent and how much it
             will cost you.
         </p>
+        <p>Choose your genre down below</p>
+        <label for="cds">Choose A Genre:</label>
+        <select id="cds" name="cds">
+            <option value="choose">Choose Here</option>
+            <option value="weird">Something Weird</option>
+            <option value="alternative">Something Alternative</option>
+            <option value="older">Something Older</option>
+            <option value="pop">Something Pop</option>
+            <option value="parody">Something Parody</option>
+            <option value="emotional">Something Emotional</option>
+        </select>
     </div>
 
 

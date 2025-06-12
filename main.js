@@ -20,7 +20,7 @@ function getNameInput (){
     message  = message + input_name.value;
     welcomeMessage.innerHTML = message;
 }
-
+cds.value
 
 
 
