@@ -16,9 +16,15 @@ Main Code
 Functions
 *************************/
 function getNameInput (){
+    if(title="Invalid Name"){
+
+    }
+    else{
     var message = "Welome to Cool Robs CDs for rent ";
     message  = message + input_name.value;
     welcomeMessage.innerHTML = message;
+    }
+
 }
 cds.value
 
