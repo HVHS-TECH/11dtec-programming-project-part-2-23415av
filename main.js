@@ -6,6 +6,8 @@ Term 2
 
 //Variables
 
+
+
 /*************************
 Main Code
 *************************/
@@ -16,18 +18,21 @@ Main Code
 Functions
 *************************/
 function getNameInput (){
-    if(title="Invalid Name"){
-
-    }
-    else{
     var message = "Welome to Cool Robs CDs for rent ";
     message  = message + input_name.value;
     welcomeMessage.innerHTML = message;
-    }
-
 }
-cds.value
 
 
+listOfCds = ['Choose Here', 'Something Weird', 'Something Alternative', 'Something Older', 'Something Pop', 'Something Parody', 'Something Emotional'];
+function genreDropdown() {
+    for (i = 0; i < listOfCds.length; i++) {
+        var newOption = '<option value="' + listOfCds[i] + '">' + listOfCds[i] + '</option>';
+        genreSelect.innerHTML += newOption;
+    }
+}
+genreDropdown();
 
-//Have someone test the program so far
+function changeBackgroundTheme(){
+    
+}
