@@ -35,11 +35,20 @@ function genreDropdown() {
 genreDropdown();
 
 function yourCd (){
-    var cd = "The CD you have selected is ";
-    cd  = cd + listOfCds[i];
-    cdName.innerHTML = cd;
 
-    var price = "This will cost you ";
-    price  = price + cdPrices[i];
-    dailyPrice.innerHTML = price;
+    var cd = "The CD you have selected is ";
+    for (i = 0; i < listOfCds.length; i++) {
+        if(listOfCds[i] <= listOfGenres) {
+            cd  = cd + listOfCds[i];
+            cdName.innerHTML = cd;
+        }
+    }
+
+        var price = "This will cost you ";
+    for (i = 0; i < cdPrices.length; i++) {
+        if(cdPrices[i] <= listOfGenres) {
+            price  = price + listOfCds[i];
+            dailyPrice.innerHTML = price;
+        }
+    }
 }
