@@ -36,9 +36,10 @@ genreDropdown();
 
 function yourCd (){
     var cd = "The CD you have selected is ";
-    cd  = cd + listOfGenres[i];
+    cd  = cd + listOfCds[i];
     cdName.innerHTML = cd;
+
     var price = "This will cost you ";
-    price  = price + listOfGenres[i];
+    price  = price + cdPrices[i];
     dailyPrice.innerHTML = price;
 }
