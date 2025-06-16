@@ -33,3 +33,12 @@ function genreDropdown() {
     }
 }
 genreDropdown();
+
+function yourCd (){
+    var cd = "The CD you have selected is ";
+    cd  = cd + listOfGenres[i];
+    cdName.innerHTML = cd;
+    var price = "This will cost you ";
+    price  = price + listOfGenres[i];
+    dailyPrice.innerHTML = price;
+}
