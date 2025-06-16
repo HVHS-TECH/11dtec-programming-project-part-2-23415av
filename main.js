@@ -7,7 +7,7 @@ Term 2
 //Variables
 
 const listOfGenres = ['Choose Here', 'Something Weird', 'Something Alternative', 'Something Older', 'Something Pop', 'Something Parody', 'Something Emotional'];
-
+let index = listOfGenres.indexOf('Something Weird');
 listOfCds = ['N/A', 'Everything is a Lot - Will Wood', 'Eureka - Mother Mother', 'Diamond Dogs - David Bowie', 'Reputation - Taylor Swift', 'Bad Hair Day - “Weird Al” Yankovic', 'The Black Parade - My Chemical Romance'];
 cdPrices = ['N/A', '$3/day', '$3/day', ' $5/day', ' $5/day', ' $4/day', '$3.50/day'];
 /*************************
@@ -36,7 +36,7 @@ function genreDropdown() {
 genreDropdown();
 
 function yourCd (){
-alert(let index = listOfGenres.indexOf('Something Weird');)
+alert(genreSelect.indexOf)
     /*var cd = "The CD you have selected is ";
     for (i = 0; i < listOfCds.length; i++) {
         if(listOfCds[i] <= listOfGenres) {
