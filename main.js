@@ -34,5 +34,7 @@ function genreDropdown() {
 genreDropdown();
 
 function changeBackgroundTheme(){
-    
+    if (newOption = 1){
+        
+    }
 }
