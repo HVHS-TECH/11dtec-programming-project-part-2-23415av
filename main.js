@@ -33,8 +33,8 @@ function genreDropdown() {
 }
 genreDropdown();
 
-function changeBackgroundTheme(){
+function addImage(){
     if (newOption = 1){
-        
+
     }
 }
