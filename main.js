@@ -35,7 +35,7 @@ function genreDropdown() {
 genreDropdown();
 
 function yourCd (){
-alert()
+alert(genreSelect.value)
     /*var cd = "The CD you have selected is ";
     for (i = 0; i < listOfCds.length; i++) {
         if(listOfCds[i] <= listOfGenres) {
